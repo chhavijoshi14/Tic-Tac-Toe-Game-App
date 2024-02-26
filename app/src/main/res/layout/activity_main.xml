@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <!-- Buttons for Tic Tac Toe grid -->
+        <Button
+            android:id="@+id/button_00"
+            android:height="10dp"
+            android:width="10dp" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_02"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_10"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_11"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_12"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_20"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_21"
+            android:height="10dp"
+            android:width="10dp"/>
+
+        <Button
+            android:id="@+id/button_22"
+            android:height="10dp"
+            android:width="10dp"/>
+
+    </GridLayout>
+
+    <!-- Reset button -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Reset Game"/>
+
+</LinearLayout>
